@@ -1,0 +1,15 @@
+import curses
+
+LARGURA_JANELA = 60
+ALTURA_JANELA = 20
+APPLE = "#"
+SNAKE = "*"
+# APPLE = "\U0001F34E"
+# SNAKE = "\U0001F40D"
+ESC = 27
+ENTER = curses.KEY_ENTER
+COBRA = [(4, 10), (4, 9), (4, 8)]
+DIREITA = curses.KEY_RIGHT
+ESQUERDA = curses.KEY_LEFT
+BAIXO = curses.KEY_DOWN
+CIMA = curses.KEY_UP
